@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+const checkAge = function (age) {
+age = Number (age)
+    if (!isNaN(age)) {
+        if (age < 18) {
+        alert("You don't have access ause your age is ")
+    }
+        else if (age >= 18 && age < 60) {
+        alert("Welcome !")
+    }
+        else if (age > 60) {
+        alert("Keep calm and look Culture channel");
+    }
+     else {
+        alert("Technical work!");
+    }    
+    }   
+else {
+        alert("Check age!"); 
+    }
+}
+ checkAge (prompt("Ваш возраст?", ""))
+
+  </script>
+
+</body>
+</html>
